@@ -1,4 +1,4 @@
-/* 
+
 /*
 http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -70,6 +70,11 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.page-line-solid {
+    width:90%;
+    border:.5px solid black;
+    margin:5% auto;
+}
 
 
 /* NAVBAR STYLES */
@@ -116,17 +121,34 @@ nav {
     text-align: center;
     font-size: 70px;
     font-family: 'Bangers', cursive;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
+}
+.home-get-started-btn p{
+    border:1px black solid;
+    font-size: 16px;
+    padding:5px 30px;
 }
 .hh-img {
     max-width: 100%;
 }
 
 
+/*uncat*/
+.middle-img {
+    max-width: 100%;
+}
 
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
+
+    /* GENERAL STYLES */
+    .page-line-solid {
+        width:100%;
+        border-color: white;
+        margin:1% auto;
+    }
 
     /* NAVBAR STYLES */
     
@@ -143,5 +165,51 @@ nav {
         justify-content: space-between;
         width:90%;
     }
+
+    /* HEADER STYLES */
+
+    .home-header-text {
+        font-size: 40px;
+    }
+    .home-header-cont {
+        justify-content: space-evenly;
+        background-color: rgb(117, 172, 209);
+        padding:2% 0;
+    }
+    .home-header-left-side{
+        
+    }
+    .home-header-right-side {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hh-img {
+        max-width: 75%;
+    }
 }
 
+@media (max-width: 500px) {
+
+    /* NAVBAR STYLES */
+    
+    .nav-links {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .nav-links a {
+        font-size: 12px;
+    }
+    /* HEADER STYLES */
+
+    .hh-img {
+        max-width: 100%;
+    }
+    .home-header-text {
+        font-size: 30px;
+    }
+}
+ 
+/* * {
+    outline: 1px solid black;
+} */
