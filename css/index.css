@@ -235,6 +235,16 @@ nav {
     .home-header-right-side {
         display: none;
     }
+    .home-header-cont {
+        margin:5% 0;
+    }
+    .home-header-right-side {
+        width:0;
+    }
+    .home-header-left-side {
+        max-width: 100%;
+        width:100%;
+    }
 }
 
 
@@ -258,13 +268,51 @@ nav {
     .nav-links a {
         width: 100%;
         border: 0.25px solid black;
-        /* border-top: none;
+        border-top: none;
         border-right: none;
-        border-left: none; */
+        border-left: none;
         padding: 4%;
         font-style: 18px;
     }
     .nav-logo {
         margin-bottom: 3%;
     }
+    .nav-links:first-child {
+        border: 1px solid black;
+    }
+
+    /* HEADER STYLES */
+
+    .home-header-left-side {
+        margin: 5% auto; 
+    }
+
+    /* HOME TOP SECTION STYLES */
+
+    .home-top-section div {
+        flex-direction: column;
+        margin:2% auto;
+    }
+    .home-top-section div div {
+        width:100%;
+        margin:5% auto;
+    }
+
+    /* HOME BOTTOM SECTION STYLES */
+
+    .home-bottom-section {
+        flex-direction: column;
+    }
+    .home-bottom-section div {
+        width:100%;
+        margin:5% auto;
+    }
+
+    /* FOOTER STYLES*/
+footer {
+    margin:5% auto;
+}
+.copyright-info {
+    margin-top: 10%;
+}
 }
