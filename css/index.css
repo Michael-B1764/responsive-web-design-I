@@ -78,6 +78,10 @@ h1, h2, h3, h4, h5 {
     border:.5px solid black;
     margin:3% auto 3%;
 }
+h1 {
+    font-size: 24px;
+    font-family: 'Bangers', cursive;
+}
 h2 {
     font-size: 20px;
     font-family: 'Bangers', cursive;
@@ -85,6 +89,9 @@ h2 {
 h3 {
     font-size: 18px;
     font-family: 'Bangers', cursive;
+}
+li {
+    list-style-type:square;
 }
 
 
@@ -148,6 +155,8 @@ nav {
 
 
 /* HOME TOP SECTION STYLES */
+
+
 .home-top-section {
     width: 90%;
     margin:0 10% 0 5%;
@@ -164,6 +173,19 @@ nav {
 }
 
 
+/* SERVICES HEADER STYLES */
+
+
+.services-header-img {
+    width: 92%;
+    margin:1% 5%;
+}
+.services-header-text {
+    width: 90%;
+    margin:auto 5%;
+}
+
+
 /* HOME MIDDLE IMAGE STYLES */
 
 
@@ -171,6 +193,37 @@ nav {
     width:90%;
     /* height: auto; */
     margin:3% 5%;
+}
+
+
+/* SERVICES MIDDLE SECTION STYLES */
+
+.services-cards-cont {
+    width:90%;
+    margin: 1% 5% 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-card {
+    width:48%;
+    border: 0.5px black solid;
+    background-color: rgb(243, 239, 239);
+    padding:2%;
+    margin-bottom: 4%;
+}
+.services-learn-more-button {
+    border: 0.5px solid black;
+    width: 32%;
+    text-align: center;
+    padding: 2% 3%;
+    font-size: 13px;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+.services-learn-more-button:hover{
+    background-color:rgb(221, 219, 219);
+    color:rgb(80, 80, 80);
 }
 
 
@@ -188,6 +241,27 @@ nav {
     width:32.5%;
 }
 
+
+/* SERVICES BOTTOM SECTION STYLES */
+
+
+.services-bottom-page-line {
+    width:90%;
+    border:.5px solid black;
+    margin:0 auto 4%;
+}
+.services-bottom-cont {
+    width:90%;
+    margin:2% 5%;
+    display:flex;
+    justify-content: space-around;
+}
+.services-bottom-cont div {
+    width:48%;
+}
+.services-bottom-text li{
+    margin-left:6%;
+}
 
 /* FOOTER STYLES */
 
