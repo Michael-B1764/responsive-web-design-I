@@ -1,0 +1,154 @@
+/* MEDIA QUERY 800px */
+
+
+@media (max-width: 800px) {
+
+    /* NAV STYLES */
+
+    nav {
+        text-align: center;
+        flex-direction: column-reverse;
+        width: 98%;
+        margin:3% 0 0;
+    }
+    nav div {
+        margin:0 auto;
+    }
+    .nav-logo {
+        margin-bottom: 5%;
+    }
+    .nav-links {
+        justify-content: space-evenly;
+        width:100%;
+    }
+    nav a {
+        width:16%;
+    }
+    
+
+    /* HEADER STYLES */
+
+    .home-header-right-side {
+        display: none;
+    }
+    .home-header-cont {
+        margin:5% 0;
+    }
+    .home-header-right-side {
+        width:0;
+    }
+    .home-header-left-side {
+        max-width: 100%;
+        width:100%;
+    }
+
+    /* SERVICES HEADER STYLES */
+
+    .services-header-img {
+        margin: 2% auto;
+    }
+}
+
+
+/* MEDIA QUERY 500px */
+
+
+@media (max-width: 500px) {
+    /* NAV STYLES*/
+
+    nav {
+        width:100%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .nav-links {
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    .nav-links a {
+        width: 100%;
+        border: 0.25px solid black;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 4%;
+        font-style: 18px;
+    }
+    .nav-logo {
+        margin-bottom: 3%;
+    }
+    .nav-links:first-child {
+        border: 1px solid black;
+        border-bottom: none;
+    }
+
+    /* HEADER STYLES */
+
+    .home-header-left-side {
+        margin: 5% auto; 
+    }
+
+    /* SERVICES HEADER SECTION STYLES */
+
+    /* .services-header-img {
+        margin-top:5%;
+        width:100%;
+    } */
+
+    /* HOME TOP SECTION STYLES */
+
+    .home-top-section div {
+        flex-direction: column;
+        margin:2% auto;
+    }
+    .home-top-section div div {
+        width:100%;
+        margin:5% auto;
+    }
+    /* .home-middle-img {
+        width:100%;
+        margin:0 auto;
+    } */
+
+    /* SERVICES MIDDLE SECTION STYLES */
+
+    .services-cards-cont {
+        flex-direction: column;
+    }
+    .services-card {
+        width:100%;
+    }
+
+    /* HOME BOTTOM SECTION STYLES */
+
+    .home-bottom-section {
+        flex-direction: column;
+    }
+    .home-bottom-section div {
+        width:100%;
+        margin:5% auto;
+    }
+
+    /* SERVICES BOTTOM SECTION STYLES */
+
+    .services-bottom-cont {
+        flex-direction: column;
+    }
+    .services-bottom-cont div {
+        width:100%;
+        max-height: 100%;
+    }
+    .services-info-img {
+        margin-top: 5%;
+    }
+
+    /* FOOTER STYLES*/
+    footer {
+        margin:5% auto;
+    }
+    .copyright-info {
+        margin-top: 10%;
+    }
+}
