@@ -1,3 +1,6 @@
+# Respoinsive app from design file.
+This was one of the earliest projects I did when first getting started with Lambda School. This was the project where I realized web development was something I could do. It's a very simple project, but it's nice to see where you came from and how much things have improved.
+
 # Responsive Web Design I: Adaptive Website
 
 It's time to expand our CSS skills into multiple devices.  You will be creating an adaptive version of the "Great Idea" design. You will be working through design mock ups for desktop, tablet, and mobile devices located in the [design-files](design-files) folder. 
